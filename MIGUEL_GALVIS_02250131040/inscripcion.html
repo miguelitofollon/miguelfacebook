@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <h1 text-align="center">FORMULARIO DE REGISTRO</h1>
+    <h3>INSCRIBA SUS FAMILIARES</h3>
+    <form method="post">
+            <ul>
+              <li>
+                <label for="name">Primer Nombre :</label>
+                <input type="text" id="name" name="nombre" />
+              </li><br>
+              <li>
+                <label for="segundo">Segundo Nombre :</label>
+                <input type="text" id="segundo" name="nombre" />
+              </li><br>
+              <li>
+                <label for="tercer">Primer Apellido :</label>
+                <input type="text" id="tercer" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Segundo Apellido :</label>
+                <input type="text" id="cuar" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Edad :</label>
+                <input  type="number" id="cuar" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Fecha de Nacimiento :</label>
+                <input  type="date" id="cuar" name="nombre" />
+              </li><br>
+                  <li>
+                <label for="tel">Celular :</label>
+                <input pattern="[0-9]{10}" type="TEL" id="tel" name="nombre" />
+              </li><br>
+              <li>
+                <label for="cuar">Foto :</label>
+                <input type="file">
+              </li><br>
+              <li>
+                <label for="cuar">Sexo :</label><br>
+                <label for="mas">Masculino</label>
+                <input type="radio"><br>
+                <label for="fem">Femenino  </label>
+                <input type="radio"><br>
+                <label for="otro">Otro</label>
+                <input type="radio"><br>
+                <label for="nodecir">No binarie</label>
+                <input type="radio">
+            </li><br>
+             <li>
+                <label for="email">Correo</label>
+                <input type="email" id="email" name="correo">
+             </li>
+              
+              <li>
+                <label for="relacion">relacion con usted</label>
+                <select name="relacion" id="relacion">
+                    <option value="padre">padre</option>
+                    <option value="padre">madre</option>
+                    <option value="padre">otro familar</option>
+                </select>
+                </li><br>
+                <li>
+                    <label for="intereses">intereses</label>
+                    <select name="ineters" id="interes" multiple>
+                        <option value="deporte">futbol</option>
+                        <option value="juegos">videojuegos</option>
+                        <option value="otro">otro </option>
+                    </select>
+                    </li><br>
+
+                    <input type="submit">
+      </form>
+
+</section>
+
+</body>
+</html>
